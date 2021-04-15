@@ -269,6 +269,6 @@ server <- function(input, output) {
 
 
 # Run the app
-#shinyApp(ui = ui, server = server)
+shinyApp(ui = ui, server = server)
 
-runGitHub("parziale_r", "megmenegazzi", ref="main")
+runGitHub("shiny_parziale", "megmenegazzi", ref="main")
